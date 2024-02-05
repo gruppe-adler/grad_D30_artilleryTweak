@@ -1,0 +1,40 @@
+name = "grad_D30_artilleryTweak"
+author = "Bernhard aka b-mayr-1984"
+prefix = "grad-D30-tweak"
+mainprefix = "z"
+
+# Launched with `hemtt launch`
+[hemtt.launch.default]
+parameters = [
+    "-skipIntro",           # These parameters are passed to the Arma 3 executable
+    "-noSplash",            # They do not need to be added to your list
+    "-showScriptErrors",    # You can add additional parameters here
+    "-world=empty",
+    "-window",
+    "-debug",
+    "-filePatching",
+    "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@Advanced Developer Tools;",
+    "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@3cb factions;",
+    "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@ace;",
+    "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@cba_a3;",
+    "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@diwako_dui;",
+    "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@dwyl;",
+    "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@emr;",
+    "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@enhanced_movement;",
+    "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@grad_slinghelmet;",
+    "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@grad_trenches;",
+    "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@gruppe_adler_mod;",
+    "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@rhsafrf;",
+    "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@rhsgref;",
+    "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@rhssaf;",
+    "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@rhsusaf;",
+    "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@splendid_smoke;",
+    "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@tfar animations;",
+    "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@tfar;",
+    "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@vet_unflipping;",
+    "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@vurtuals_car_seat_n_stretcher;",
+    "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@zen;",
+    "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@zen_compat_ace;",
+    "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@Crows Electronic Warfare;",
+    "C:\\Users\\Bernhard-WS\\Documents\\Arma 3 - Other Profiles\\Bernhard\\mpmissions\\Shoot_and_Scoot.Tanoa\\mission.sqm" # Launch into existing Editor Mission
+]
