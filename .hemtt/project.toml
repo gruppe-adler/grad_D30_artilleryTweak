@@ -1,18 +1,26 @@
 name = "grad_D30_artilleryTweak"
 author = "Bernhard aka b-mayr-1984"
-prefix = "grad-D30-tweak"
+prefix = "grad_D30_tweak"
 mainprefix = "z"
+
+
+[files]
+include = [
+    "mod.cpp",      # These files are copied to the build directory by default
+    # "meta.cpp",     # They do not need to be added to your list
+    # "LICENSE",
+    "logo_active_ca.paa",
+    "logo_ca.paa",
+    "overview_co.paa",
+    "logo_small_ca.paa"
+]
+
 
 # Launched with `hemtt launch`
 [hemtt.launch.default]
 parameters = [
-    "-skipIntro",           # These parameters are passed to the Arma 3 executable
-    "-noSplash",            # They do not need to be added to your list
-    "-showScriptErrors",    # You can add additional parameters here
-    "-world=empty",
     "-window",
-    "-debug",
-    "-filePatching",
+    "-world=empty",
     "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@Advanced Developer Tools;",
     "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@3cb factions;",
     "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@ace;",
@@ -35,6 +43,6 @@ parameters = [
     "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@vurtuals_car_seat_n_stretcher;",
     "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@zen;",
     "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@zen_compat_ace;",
-    "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@Crows Electronic Warfare;",
-    "C:\\Users\\Bernhard-WS\\Documents\\Arma 3 - Other Profiles\\Bernhard\\mpmissions\\Shoot_and_Scoot.Tanoa\\mission.sqm" # Launch into existing Editor Mission
+    "-mod=F:\\Games\\Steam\\Arma 3\\Mods\\GruppeAdler\\@Crows Electronic Warfare;"
+    # "C:\\Users\\Bernhard-WS\\Documents\\Arma 3 - Other Profiles\\Bernhard\\mpmissions\\Shoot_and_Scoot.Tanoa\\mission.sqm" # Launch into existing Editor Mission
 ]
