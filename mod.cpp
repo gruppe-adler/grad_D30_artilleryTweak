@@ -1,0 +1,14 @@
+name = "Gruppe Adler D30 Tweak";
+author = "Bernhard aka b-mayr-1984";
+logo = "logo_ca.paa";
+logoOver = "logo_active_ca.paa";
+tooltip = "Gruppe Adler D30 Tweak";
+tooltipOwned = "Gruppe Adler D30 Tweak";
+picture = "overview_co.paa";
+actionName = "GitHub";
+action = "https://github.com/gruppe-adler/grad_D30_artilleryTweak";
+overview = "<br/><t align='center' size='0.75'>Visit Gruppe Adler on <t href='https://gruppe-adler.de/'>our Website</t> | <t href='http://discord.gruppe-adler.de'>Discord</t> | <t href='https://www.youtube.com/user/gruppeadler'>YouTube</t> | <t href='https://twitter.com/Gruppe_Adler'>Twitter</t></t><br/><br/>This little mod is a balancing tweak for the <a href='https://github.com/gruppe-adler/Shoot_and_Scoot.Tanoa'>Shoot and Scoot</a> game mode.<br/><br/>The D30 towed artillery has been criticized by players for its severe inaccuracy.";
+hideName = 0;
+hidePicture = 0;
+dlcColor[] = {0.8196, 0.5529, 0.1216, 1};
+logoSmall = "logo_small_ca.paa";
