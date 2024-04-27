@@ -31,6 +31,27 @@ class CfgWeapons
 		{
 			artilleryDispersion=3.2;	// 3.2 is from vanilla Sochor; original value was 7.1999998
 			reloadTime=6;				// original value was 8
+			displayName="Charge 0";		// change original but confusing charge names with those consistent to ACE artillery table
+		};
+		class Single2: Single1
+		{
+			displayName="Charge 1";		// change original but confusing charge names with those consistent to ACE artillery table
+		};
+		class Single3: Single1
+		{
+			displayName="Charge 2";		// change original but confusing charge names with those consistent to ACE artillery table
+		};
+		class Single4: Single1
+		{
+			displayName="Charge 3";		// change original but confusing charge names with those consistent to ACE artillery table
+		};
+		class Single5: Single1
+		{
+			displayName="Charge 4";		// change original but confusing charge names with those consistent to ACE artillery table
+		};
+		class Single6: Single1
+		{
+			displayName="Charge 5";		// change original but confusing charge names with those consistent to ACE artillery table
 		};
 	};
 };
