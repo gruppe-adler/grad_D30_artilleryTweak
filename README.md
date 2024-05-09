@@ -7,7 +7,7 @@ The D30 towed artillery (shown in the picture below) has been criticized by play
 
 
 This mod 
-* increases the inaccuracy 
+* increases the accuracy 
 * reduces the reload time between firing 2x shells
 * replaces displayed names of artillery charges with less confusing ones
   * (that are also consistent with the ACE artillery range table)
