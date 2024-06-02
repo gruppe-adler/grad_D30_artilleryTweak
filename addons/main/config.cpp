@@ -55,3 +55,33 @@ class CfgWeapons
 		};
 	};
 };
+
+class Turrets;
+class MainTurret;
+
+class CfgVehicles 
+{
+	class All {};
+	class AllVehicles: All {};
+	class Land: AllVehicles {};
+	class LandVehicle: Land {};
+	class StaticWeapon: LandVehicle {};
+	class StaticCannon: StaticWeapon {};
+
+	class rhs_D30_base: StaticCannon
+	{		
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				magazines[]=
+				{
+					"rhs_mag_3of56_10",
+					"rhs_mag_d462_2"//,
+					// "rhs_mag_s463_2",		// magazine with 2x illumination shells
+					// "rhs_mag_3of69m_2"		// magazine with 2x laser guided shells
+				};
+			};
+		};
+	};
+};
